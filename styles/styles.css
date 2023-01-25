@@ -1,0 +1,163 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+/* Common styles or utilities */
+body {
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 21px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: 3px;
+}
+
+/* top players styles */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+
+    margin-bottom: 30px;
+
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+
+}
+
+.top-players img {
+    width: 56px;
+    height: 56px;
+
+}
+
+.player-name {
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+
+/* top blogs styles */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 26px;
+    column-gap: 79px;
+}
+
+.blog {
+    display: flex;
+    gap: 16px;
+}
+
+.blogs .thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+
+.info-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.blog-author a {
+    text-decoration: none;
+    color: #562EFF;
+}
+
+.blog-author {
+    color: #9F9F9F;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Latest Courses */
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+
+}
+.course{
+    box-shadow: 0px 5.34229px 13.3557px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+    padding: 12px;
+}
+
+.courses .course img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-rating {
+    font-weight: 400;
+    font-size: 14px;
+    color: #A2A2A2;
+}
+
+.course-duration {
+    background-color: #FFE4E8;
+    color: #FF4A60;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-solid.filled {
+    color: #FFC014;
+}
+
+.fa-solid.empty {
+    color: #AEAEAE;
+    margin-right: 10px;
+}
+
+.course-title {
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.course-author {
+    color: #ED6B4F;
+    font-weight: 400;
+    font-size: 14px
+}
